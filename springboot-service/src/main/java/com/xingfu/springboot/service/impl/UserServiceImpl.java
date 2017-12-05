@@ -4,6 +4,7 @@ import com.xingfu.springboot.dao.mapper.UserMapper;
 import com.xingfu.springboot.domain.User;
 import com.xingfu.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
  * @author: zisong.wang
  * @Date: 2017/12/4
  */
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired

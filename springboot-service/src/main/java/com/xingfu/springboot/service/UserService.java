@@ -9,7 +9,6 @@ import java.util.List;
 /**
  *  @author zisong.wang
  */
-@Service
 public interface UserService {
 
     List<User> queryUserList(Integer Id);
